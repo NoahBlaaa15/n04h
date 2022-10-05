@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sendMail() {
+    window.location.href = 'mailto:nosiebart@gmail.com'
+  }
+
 }
